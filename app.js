@@ -18,7 +18,7 @@
 // };
 
 alert('Boas vindas ao jogo do número secreto');
-const maximo = 100;
+const maximo = 50;
 let numeroSecreto = Math.floor(Math.random() * maximo)+1;
 let chute = 0;
 let tentativa = 1;
